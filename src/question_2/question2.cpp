@@ -13,7 +13,7 @@ int get_hours(int seconds_since_1970)
 
 int get_minutes(int seconds_since_1970)
 {
-    int minutes = (seconds_since_1970 / 60) % 24 % 365 % 54; // (seconds_since_1970 / 60 minutes) % 24 hours % 365 days % 54 years
+    int minutes = (seconds_since_1970 / 60) % 24 % 365 % 54; // (seconds_since_1970 / 60 seconds) % 24 hours % 365 days % 54 years
 
     return minutes;
 }
